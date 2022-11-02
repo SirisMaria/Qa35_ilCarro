@@ -1,0 +1,40 @@
+16:34:57.899  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:34:59.983  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:35:00.172  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:35:05.266  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:35:05.267  INFO  manager.ListenerWD - List size is -->0
+16:35:05.271  INFO  TestBase - Login scenario success was used data email: mashka@gmail.com & password: mashkA12345$5
+16:35:05.272  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:35:05.330  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:35:05.454  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:35:05.523  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:35:05.878  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:35:05.920  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:35:06.173  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:35:06.243  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+16:35:06.381  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:35:06.423  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:35:06.517  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+16:35:06.953  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+16:35:06.991  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: h2.message
+16:35:07.027  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: h2.message
+16:35:07.064  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+16:35:07.072  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:35:07.122  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:35:07.123  INFO  manager.ListenerWD - List size is -->1
+16:35:07.124  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+16:35:07.167  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+16:35:08.258  INFO  manager.ListenerWD - We have a 'problem'
+16:35:08.259  INFO  manager.ListenerWD - The name of error method  click
+16:35:08.264  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-goy-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1126, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a7924a747a7f7dd2df9f46103537602, clickElement {id=db8bee5d-9d53-4d44-aca5-6d30520e6bbb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a7924a747a7f7dd2df9f46103537602)] -> xpath: //a[text()=' Logout ']]
+Session ID: 9a7924a747a7f7dd2df9f46103537602
+16:35:08.265  INFO  manager.ListenerWD - *********************
+16:35:08.266  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (9a7924a747a7f7dd2df9f46103537602)] -> xpath: //a[text()=' Logout ']]
+16:35:08.272  INFO  manager.ListenerWD - Screen with error is  1151 ****src/test/screenshots/screen1151.png

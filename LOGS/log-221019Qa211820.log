@@ -1,0 +1,24 @@
+21:18:25.395  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:18:26.893  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:18:26.967  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:18:27.009  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:18:27.174  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:18:27.660  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:18:27.727  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:18:27.774  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:18:27.950  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 '])
+21:18:28.060  INFO  manager.ListenerWD - We have a 'problem'
+21:18:28.060  INFO  manager.ListenerWD - The name of error method  findElement
+21:18:28.066  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[text()=' 25 ']) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()=' 25 '])' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa4d229ae4bfc96c8342e5ee006f5e49, findElement {using=xpath, value=//div[text()=' 25 '])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57553}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57553/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa4d229ae4bfc96c8342e5ee006f5e49
+21:18:28.067  INFO  manager.ListenerWD - *********************
+21:18:28.069  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (fa4d229ae4bfc96c8342e5ee006f5e49)
+21:18:28.075  INFO  manager.ListenerWD - Screen with error is  1821 ****src/test/screenshots/screen1821.png

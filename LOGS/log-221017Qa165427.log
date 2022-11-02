@@ -1,0 +1,109 @@
+16:54:33.485  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:54:35.418  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:54:35.495  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:40.565  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:40.565  INFO  manager.ListenerWD - List size is -->0
+16:54:40.568  INFO  TestBase - Login scenario success was used data email: mashka@gmail.com & password: mashkA12345$5
+16:54:40.570  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:40.608  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:40.693  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:54:40.748  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:54:41.079  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:54:41.134  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:54:41.335  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:54:41.396  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+16:54:41.516  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:54:41.557  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:54:41.635  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:42.059  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:42.060  INFO  manager.ListenerWD - List size is -->1
+16:54:42.060  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+16:54:42.115  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+16:54:42.176  INFO  manager.HelperBase - Click OK button was needed
+16:54:42.176  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+16:54:42.208  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+16:54:42.251  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: h2.message
+16:54:42.285  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: h2.message
+16:54:42.313  INFO  TestBase - In assert checked message 'Logged in success' in dialog  
+16:54:42.320  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:42.347  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:42.347  INFO  manager.ListenerWD - List size is -->1
+16:54:42.348  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+16:54:42.461  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+16:54:42.573  INFO  TestBase - The logout was needed 
+16:54:42.574  INFO  TestBase - Login scenario success was used data email: mashapetrova@gmail.com & password: mashkA12345%6
+16:54:42.575  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:42.606  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:42.700  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:54:42.740  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:54:42.953  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:54:42.976  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:54:43.178  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:54:43.217  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+16:54:43.278  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:54:43.312  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:54:43.377  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:43.762  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:43.762  INFO  manager.ListenerWD - List size is -->1
+16:54:43.763  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+16:54:43.807  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+16:54:43.864  INFO  manager.HelperBase - Click OK button was needed
+16:54:43.864  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+16:54:43.899  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+16:54:43.942  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: h2.message
+16:54:44.024  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: h2.message
+16:54:44.072  INFO  manager.ListenerWD - We have a 'problem'
+16:54:44.073  INFO  manager.ListenerWD - The name of error method  getText
+16:54:44.076  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [178b5b18d66694b98a8e40adfcb6e9d6, getElementText {id=05c3dca3-82e9-410b-9bd8-04c56ab4f920}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49654/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (178b5b18d66694b98a8e40adfcb6e9d6)] -> css selector: h2.message]
+Session ID: 178b5b18d66694b98a8e40adfcb6e9d6
+16:54:44.077  INFO  manager.ListenerWD - *********************
+16:54:44.077  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (178b5b18d66694b98a8e40adfcb6e9d6)] -> css selector: h2.message]
+16:54:44.082  INFO  manager.ListenerWD - Screen with error is  1120 ****src/test/screenshots/screen1120.png
+16:54:44.093  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:44.148  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:54:44.148  INFO  manager.ListenerWD - List size is -->1
+16:54:44.149  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+16:54:44.210  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+16:54:44.302  INFO  TestBase - The logout was needed 
+16:54:44.303  INFO  TestBase - Login scenario success was used data email: mashkavasina@gmail.com & password: mashkA12345$7
+16:54:44.303  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:44.328  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:54:44.409  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:54:44.443  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:54:44.672  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:54:44.693  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:54:44.905  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:54:44.936  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+16:54:45.008  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:54:45.036  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:54:45.125  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:45.497  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+16:54:45.497  INFO  manager.ListenerWD - List size is -->1
+16:54:45.498  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+16:54:45.620  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+16:54:45.860  INFO  manager.HelperBase - Click OK button was needed
+16:54:45.861  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+16:54:46.130  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+16:54:46.236  INFO  manager.ListenerWD - We have a 'problem'
+16:54:46.238  INFO  manager.ListenerWD - The name of error method  isDisplayed
+16:54:46.238  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [178b5b18d66694b98a8e40adfcb6e9d6, isElementDisplayed {id=8d92aef3-18a8-4713-9639-2843f3f3a6a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49654}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49654/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (178b5b18d66694b98a8e40adfcb6e9d6)] -> css selector: div.dialog-container]
+Session ID: 178b5b18d66694b98a8e40adfcb6e9d6
+16:54:46.239  INFO  manager.ListenerWD - *********************
+16:54:46.239  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (178b5b18d66694b98a8e40adfcb6e9d6)] -> css selector: div.dialog-container]
+16:54:46.240  INFO  manager.ListenerWD - Screen with error is  1279 ****src/test/screenshots/screen1279.png

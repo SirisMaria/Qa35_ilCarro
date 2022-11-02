@@ -1,0 +1,24 @@
+09:46:40.241  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:46:41.867  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:46:41.933  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+09:46:41.982  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+09:46:42.280  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+09:46:42.364  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+09:46:42.593  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+09:46:42.921  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+09:46:42.999  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+09:46:43.037  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+09:46:43.038  INFO  manager.HelperBase - Os is ---->Windows 10
+09:46:43.120  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+09:46:43.151  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+09:46:43.289  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 29 ']
+09:46:43.333  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 29 ']
+09:46:43.479  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+09:46:43.512  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+09:46:43.594  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+09:46:43.629  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+09:46:43.705  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+09:46:43.753  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+09:46:43.861  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: a.car-container
+09:46:45.397  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: a.car-container
+09:46:45.398  INFO  manager.ListenerWD - List size is -->10

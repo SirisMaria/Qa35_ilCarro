@@ -1,0 +1,14 @@
+16:20:13.338  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:20:15.470  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:20:15.579  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:20:20.635  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:20:20.635  INFO  manager.ListenerWD - List size is -->0
+16:20:20.639  INFO  TestBase - Login scenario success was used data email: mashkagmail.com & password: mashkA12345$5
+16:20:20.641  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:20:20.703  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:20:20.825  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:20:20.892  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:20:21.247  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:20:21.308  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:20:21.603  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:20:21.675  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit

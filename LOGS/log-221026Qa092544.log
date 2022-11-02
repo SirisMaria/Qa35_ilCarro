@@ -1,0 +1,27 @@
+09:25:49.808  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:25:51.697  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:25:51.780  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+09:25:51.830  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+09:25:52.119  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+09:25:52.200  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+09:25:52.470  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+09:25:52.882  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+09:25:52.946  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+09:25:52.987  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+09:25:53.135  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+09:25:53.202  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+09:25:53.329  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: div[text()=' 25 ']
+09:25:58.363  INFO  manager.ListenerWD - We have a 'problem'
+09:25:58.363  INFO  manager.ListenerWD - The name of error method  findElement
+09:25:58.368  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"div[text()=' 25 ']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8479566164813cd09130e45bea90c3f4, findElement {using=xpath, value=div[text()=' 25 ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62981/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8479566164813cd09130e45bea90c3f4
+09:25:58.369  INFO  manager.ListenerWD - *********************
+09:25:58.369  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (8479566164813cd09130e45bea90c3f4)
+09:25:58.374  INFO  manager.ListenerWD - Screen with error is  1355 ****src/test/screenshots/screen1355.png

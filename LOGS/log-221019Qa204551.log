@@ -1,0 +1,24 @@
+20:45:58.168  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+20:46:00.060  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+20:46:00.164  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+20:46:00.223  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+20:46:00.476  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+20:46:01.069  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+20:46:01.163  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+20:46:01.213  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+20:46:01.446  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ]
+20:46:01.560  INFO  manager.ListenerWD - We have a 'problem'
+20:46:01.563  INFO  manager.ListenerWD - The name of error method  findElement
+20:46:01.573  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[text()=' 25 ] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()=' 25 ]' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2b1cfdf1fd78d20c5acd515d6baced8, findElement {using=xpath, value=//div[text()=' 25 ]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64081/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e2b1cfdf1fd78d20c5acd515d6baced8
+20:46:01.574  INFO  manager.ListenerWD - *********************
+20:46:01.574  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (e2b1cfdf1fd78d20c5acd515d6baced8)
+20:46:01.581  INFO  manager.ListenerWD - Screen with error is  1337 ****src/test/screenshots/screen1337.png

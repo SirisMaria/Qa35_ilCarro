@@ -1,0 +1,86 @@
+22:35:37.026  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+22:35:39.077  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+22:35:39.193  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+22:35:44.235  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+22:35:44.236  INFO  manager.ListenerWD - List size is -->0
+22:35:44.238  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+22:35:44.283  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+22:35:44.400  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+22:35:44.467  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+22:35:44.785  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+22:35:44.832  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+22:35:45.071  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+22:35:45.127  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+22:35:45.246  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+22:35:45.282  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+22:35:45.367  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+22:35:45.827  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+22:35:45.827  INFO  manager.ListenerWD - List size is -->1
+22:35:45.827  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+22:35:45.870  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+22:35:45.938  INFO  manager.HelperBase - Click OK button was needed
+22:35:45.950  INFO  TestBase - The login was needed with user : User{name='null', lastname='null', email='mashka@gmail.com', password='mashkA12345$5', phone='null'}
+22:35:46.025  INFO  TestBase - Test start with data --->Car(location=Haifa,Israel, make=BMW, model=M6, year=2019, engine=2, fuel=Petrol, gear=AT, wD=AWD, doors=4, seats=7, clasS=C, fuelConsumption=6.7, carRegNum=12-5-78, price=60, distanceInclued=6, featurs=900, about=Type of featurs)
+22:35:46.534  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [href='/let-car-work']
+22:35:46.575  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [href='/let-car-work']
+22:35:46.717  INFO  manager.ListenerWD - Before Find Element By -->By.id: pickUpPlace
+22:35:46.778  INFO  manager.ListenerWD - After Find Element By -->By.id: pickUpPlace
+22:35:47.023  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+22:35:47.388  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+22:35:47.970  INFO  manager.ListenerWD - Before Find Element By -->By.id: make
+22:35:48.013  INFO  manager.ListenerWD - After Find Element By -->By.id: make
+22:35:48.180  INFO  manager.ListenerWD - Before Find Element By -->By.id: model
+22:35:48.226  INFO  manager.ListenerWD - After Find Element By -->By.id: model
+22:35:48.471  INFO  manager.ListenerWD - Before Find Element By -->By.id: year
+22:35:48.521  INFO  manager.ListenerWD - After Find Element By -->By.id: year
+22:35:48.741  INFO  manager.ListenerWD - Before Find Element By -->By.id: engine
+22:35:48.793  INFO  manager.ListenerWD - After Find Element By -->By.id: engine
+22:35:49.011  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuel
+22:35:49.060  INFO  manager.ListenerWD - After Find Element By -->By.id: fuel
+22:35:49.236  INFO  manager.ListenerWD - Before Find Element By -->By.id: gear
+22:35:49.278  INFO  manager.ListenerWD - After Find Element By -->By.id: gear
+22:35:49.404  INFO  manager.ListenerWD - Before Find Element By -->By.id: wheelsDrive
+22:35:49.438  INFO  manager.ListenerWD - After Find Element By -->By.id: wheelsDrive
+22:35:49.625  INFO  manager.ListenerWD - Before Find Element By -->By.id: doors
+22:35:49.727  INFO  manager.ListenerWD - After Find Element By -->By.id: doors
+22:35:50.159  INFO  manager.ListenerWD - Before Find Element By -->By.id: seats
+22:35:50.202  INFO  manager.ListenerWD - After Find Element By -->By.id: seats
+22:35:50.469  INFO  manager.ListenerWD - Before Find Element By -->By.id: class
+22:35:50.522  INFO  manager.ListenerWD - After Find Element By -->By.id: class
+22:35:50.760  INFO  manager.ListenerWD - Before Find Element By -->By.id: fuelConsumption
+22:35:50.805  INFO  manager.ListenerWD - After Find Element By -->By.id: fuelConsumption
+22:35:51.239  INFO  manager.ListenerWD - Before Find Element By -->By.id: serialNumber
+22:35:51.282  INFO  manager.ListenerWD - After Find Element By -->By.id: serialNumber
+22:35:51.583  INFO  manager.ListenerWD - Before Find Element By -->By.id: price
+22:35:51.640  INFO  manager.ListenerWD - After Find Element By -->By.id: price
+22:35:51.954  INFO  manager.ListenerWD - Before Find Element By -->By.id: distance
+22:35:52.006  INFO  manager.ListenerWD - After Find Element By -->By.id: distance
+22:35:52.303  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .feature-input
+22:35:52.359  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .feature-input
+22:35:52.600  INFO  manager.ListenerWD - Before Find Element By -->By.id: about
+22:35:52.640  INFO  manager.ListenerWD - After Find Element By -->By.id: about
+22:35:52.859  INFO  manager.ListenerWD - Before Find Element By -->By.id: photos
+22:35:52.898  INFO  manager.ListenerWD - After Find Element By -->By.id: photos
+22:35:52.981  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+22:35:53.033  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+22:35:56.909  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+22:35:56.936  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+22:35:57.037  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+22:35:57.937  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+22:35:58.036  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container>h1
+22:35:58.121  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container>h1
+22:35:58.311  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+22:36:03.398  INFO  manager.ListenerWD - We have a 'problem'
+22:36:03.400  INFO  manager.ListenerWD - The name of error method  findElement
+22:36:03.407  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8037d3959d29fa04d50337589a27faaf, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52025}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52025/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8037d3959d29fa04d50337589a27faaf
+22:36:03.408  INFO  manager.ListenerWD - *********************
+22:36:03.409  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (8037d3959d29fa04d50337589a27faaf)
+22:36:03.416  INFO  manager.ListenerWD - Screen with error is  1498 ****src/test/screenshots/screen1498.png

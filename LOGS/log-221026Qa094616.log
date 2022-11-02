@@ -1,0 +1,24 @@
+09:46:21.307  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+09:46:23.181  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+09:46:23.235  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .header a.logo
+09:46:23.288  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .header a.logo
+09:46:23.611  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+09:46:23.700  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+09:46:24.007  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+09:46:24.382  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+09:46:24.512  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+09:46:24.559  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+09:46:24.560  INFO  manager.HelperBase - Os is ---->Windows 10
+09:46:24.699  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+09:46:24.760  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+09:46:25.210  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+09:46:25.269  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+09:46:25.363  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+09:46:25.413  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+09:46:25.473  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+09:46:25.525  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+09:46:25.526  INFO  manager.ListenerWD - List size is -->1
+09:46:25.527  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+09:46:25.560  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+09:46:25.577  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.ng-star-inserted
+09:46:25.607  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.ng-star-inserted

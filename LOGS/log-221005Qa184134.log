@@ -1,0 +1,1 @@
+18:41:48.783  INFO  TestBase - Test start with data --->Car(location=Haifa,Israel, make=BMW, model=M6, year=2019, engine=2, fuel=Petrol, gear=AT, wD=AWD, doors=4, seats=7, clasS=C, fuelConsumption=6.6, carRegNum=12-5-152, price=60, distanceInclued=900, featurs=Type of featurs, about=no smoking)

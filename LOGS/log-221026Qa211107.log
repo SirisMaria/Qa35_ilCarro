@@ -1,0 +1,22 @@
+21:11:13.132  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:11:19.623  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:11:19.685  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:11:24.754  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:11:24.755  INFO  manager.ListenerWD - List size is -->0
+21:11:24.761  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:11:24.830  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:11:24.933  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:11:24.987  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:11:25.227  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:11:25.273  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:11:25.767  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:11:25.815  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:11:26.161  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:11:26.213  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:11:26.489  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:11:26.566  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:11:26.838  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:11:26.892  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:11:32.610  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:11:37.775  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+21:11:37.776  INFO  manager.ListenerWD - List size is -->0

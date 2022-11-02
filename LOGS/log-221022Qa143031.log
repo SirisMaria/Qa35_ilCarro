@@ -1,0 +1,28 @@
+14:30:36.625  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+14:30:38.168  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+14:30:38.291  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+14:30:38.340  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+14:30:38.581  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+14:30:39.128  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+14:30:39.316  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+14:30:39.375  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+14:30:39.649  INFO  manager.HelperBase - year --> 2022
+14:30:39.650  INFO  manager.HelperBase - Day of Month --> 22
+14:30:39.650  INFO  manager.HelperBase - Month value --> 10
+14:30:39.657  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+14:30:39.714  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+14:30:42.627  INFO  manager.ListenerWD - We have a 'problem'
+14:30:42.636  INFO  manager.ListenerWD - The name of error method  isDisplayed
+14:30:42.653  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df04d460f26cee8313af14dc15d663dc, isElementDisplayed {id=97affc25-2b90-4ce9-ba0d-b5d7db4b53fc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61127/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (df04d460f26cee8313af14dc15d663dc)] -> css selector: button[type='submit']]
+Session ID: df04d460f26cee8313af14dc15d663dc
+14:30:42.655  INFO  manager.ListenerWD - *********************
+14:30:42.655  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (df04d460f26cee8313af14dc15d663dc)] -> css selector: button[type='submit']]
+14:30:42.970  INFO  manager.ListenerWD - Screen with error is  1879 ****src/test/screenshots/screen1879.png

@@ -1,0 +1,29 @@
+21:13:17.134  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:13:21.795  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:13:21.869  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:13:26.936  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:13:26.937  INFO  manager.ListenerWD - List size is -->0
+21:13:26.950  INFO  TestBase - Registration  negative scenario with wrong password was used dataUser{name='Vova', lastname='Vovin', email='vova1@gmail.com', password='Vov3$5', phone='null'}
+21:13:26.954  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:13:27.029  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:13:27.187  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:13:27.228  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:13:27.503  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:13:27.550  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:13:27.741  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:13:27.783  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:13:28.046  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:13:28.082  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:13:28.325  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:13:28.366  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:13:28.556  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:13:28.591  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:13:28.639  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+21:13:28.665  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+21:13:28.665  INFO  manager.ListenerWD - List size is -->1
+21:13:28.666  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+21:13:28.694  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+21:13:28.712  INFO  TestBase - The Y'alla button was not active
+21:13:28.716  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:13:33.775  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+21:13:33.775  INFO  manager.ListenerWD - List size is -->0

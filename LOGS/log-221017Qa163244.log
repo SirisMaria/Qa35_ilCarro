@@ -1,0 +1,21 @@
+16:32:52.111  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:32:53.995  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+16:32:54.089  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:32:59.137  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+16:32:59.138  INFO  manager.ListenerWD - List size is -->0
+16:33:05.445  INFO  TestBase - Login scenario success was used data email: mashka@gmail.com & password: mashkA12345$5
+16:33:06.641  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+16:33:07.150  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+16:33:09.523  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+16:33:10.072  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+16:33:10.492  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+16:33:10.991  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+16:33:11.634  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit
+16:33:12.318  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit
+16:33:13.477  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+16:33:13.955  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+16:33:15.426  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+16:33:16.013  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+16:33:16.934  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: h2.message
+16:33:17.456  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: h2.message
+16:33:18.784  INFO  TestBase - In assert checked message 'Logged in success' in dialog  

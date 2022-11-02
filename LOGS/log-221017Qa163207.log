@@ -1,0 +1,15 @@
+16:32:16.967  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+16:32:17.102  INFO  manager.ListenerWD - We have a 'problem'
+16:32:17.103  INFO  manager.ListenerWD - The name of error method  maximize
+16:32:17.117  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2398fb3895792fe51f2a302c1bbe6f83, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65172/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2398fb3895792fe51f2a302c1bbe6f83
+16:32:17.119  INFO  manager.ListenerWD - *********************
+16:32:17.119  INFO  manager.ListenerWD - org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow@5c7dfc05
+16:32:17.136  INFO  manager.ListenerWD - Screen with error is  1455 ****src/test/screenshots/screen1455.png

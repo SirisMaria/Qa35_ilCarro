@@ -1,0 +1,24 @@
+21:13:39.645  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:13:41.156  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:13:41.262  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:13:41.304  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:13:41.508  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:13:41.938  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:13:42.012  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:13:42.067  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:13:42.246  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 '])
+21:13:42.327  INFO  manager.ListenerWD - We have a 'problem'
+21:13:42.328  INFO  manager.ListenerWD - The name of error method  findElement
+21:13:42.335  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[text()=' 25 ']) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()=' 25 '])' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7413121c584a3df02a7efe7683d87a9a, findElement {using=xpath, value=//div[text()=' 25 '])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57447/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7413121c584a3df02a7efe7683d87a9a
+21:13:42.336  INFO  manager.ListenerWD - *********************
+21:13:42.337  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (7413121c584a3df02a7efe7683d87a9a)
+21:13:42.347  INFO  manager.ListenerWD - Screen with error is  1238 ****src/test/screenshots/screen1238.png

@@ -1,0 +1,35 @@
+19:40:40.821  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+19:40:46.661  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+19:40:46.752  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+19:40:46.805  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+19:40:47.025  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+19:40:47.470  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+19:40:47.567  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+19:40:47.617  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+19:40:47.855  INFO  manager.HelperBase - year --> 2022
+19:40:47.856  INFO  manager.HelperBase - Day of Month --> 22
+19:40:47.856  INFO  manager.HelperBase - Month value --> 10
+19:40:47.857  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:47.909  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.099  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.155  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.252  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.292  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.366  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.397  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[aria-label='Next month']
+19:40:48.458  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()= 20']
+19:40:48.525  INFO  manager.ListenerWD - We have a 'problem'
+19:40:48.525  INFO  manager.ListenerWD - The name of error method  findElement
+19:40:48.532  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[text()= 20'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[text()= 20']' is not a valid XPath expression.
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '192.168.1.220', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [148524438e74c5fb625ef1294a685955, findElement {using=xpath, value=//div[text()= 20']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64803}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64803/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 148524438e74c5fb625ef1294a685955
+19:40:48.534  INFO  manager.ListenerWD - *********************
+19:40:48.536  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (148524438e74c5fb625ef1294a685955)
+19:40:48.547  INFO  manager.ListenerWD - Screen with error is  1605 ****src/test/screenshots/screen1605.png

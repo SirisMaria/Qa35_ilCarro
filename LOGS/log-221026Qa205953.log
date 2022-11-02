@@ -1,0 +1,78 @@
+20:59:59.602  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:00:06.646  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:00:06.765  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:00:11.808  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:00:11.809  INFO  manager.ListenerWD - List size is -->0
+21:00:11.827  INFO  TestBase - Registration  scenario success was used dataUser{name='Vova', lastname='Vovin', email='vova111@gmail.com', password='VovA12345$5', phone='null'}
+21:00:11.828  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:00:11.890  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:00:12.032  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:00:12.126  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:00:12.427  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:00:12.491  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:00:12.757  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:00:12.803  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:00:13.090  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:00:13.132  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:00:13.394  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:00:13.461  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:00:13.734  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:00:13.780  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:00:13.866  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:00:13.910  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:00:13.990  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+21:00:14.551  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+21:00:14.634  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container>h1
+21:00:14.684  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container>h1
+21:00:14.730  INFO  TestBase - In assert checked message 'Registered' in dialog  
+21:00:14.736  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:00:14.802  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+21:00:14.802  INFO  manager.ListenerWD - List size is -->1
+21:00:14.802  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+21:00:14.874  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+21:00:14.938  INFO  manager.HelperBase - Click OK button was needed
+21:00:14.942  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:00:14.981  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:00:14.982  INFO  manager.ListenerWD - List size is -->1
+21:00:14.982  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+21:00:15.016  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+21:00:15.153  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:00:15.192  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:00:15.357  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:00:15.403  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:00:15.630  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:00:15.666  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:00:15.957  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:00:16.019  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:00:16.849  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:00:16.884  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:00:17.631  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:00:17.665  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:00:17.903  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:00:17.966  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:00:23.188  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:00:31.135  INFO  manager.ListenerWD - We have a 'problem'
+21:00:31.136  INFO  manager.ListenerWD - The name of error method  findElements
+21:00:31.137  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cdfdac10c23853144c0f05897987711, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60280}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60280/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cdfdac10c23853144c0f05897987711
+21:00:31.140  INFO  manager.ListenerWD - *********************
+21:00:31.141  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (1cdfdac10c23853144c0f05897987711)
+21:00:31.151  INFO  manager.ListenerWD - Screen with error is  1967 ****src/test/screenshots/screen1967.png
+21:00:31.200  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:00:31.215  INFO  manager.ListenerWD - We have a 'problem'
+21:00:31.216  INFO  manager.ListenerWD - The name of error method  findElements
+21:00:31.217  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cdfdac10c23853144c0f05897987711, findElements {using=xpath, value=//a[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60280}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60280/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cdfdac10c23853144c0f05897987711
+21:00:31.229  INFO  manager.ListenerWD - *********************
+21:00:31.230  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (1cdfdac10c23853144c0f05897987711)
+21:00:31.231  INFO  manager.ListenerWD - Screen with error is  1906 ****src/test/screenshots/screen1906.png

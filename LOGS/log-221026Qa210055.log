@@ -1,0 +1,127 @@
+21:01:00.795  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:01:05.729  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:01:05.803  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:01:10.841  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:01:10.842  INFO  manager.ListenerWD - List size is -->0
+21:01:10.859  INFO  TestBase - Registration  scenario success was used dataUser{name='Vova', lastname='Vovin', email='vova170@gmail.com', password='VovA123$5', phone='null'}
+21:01:10.861  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:01:10.920  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:01:11.088  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:01:11.170  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:01:11.473  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:01:11.541  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:01:11.848  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:01:11.906  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:01:12.280  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:01:12.335  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:01:12.629  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:01:12.700  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:01:12.936  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:01:13.003  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:01:13.108  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:01:13.157  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:01:13.239  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container
+21:01:13.823  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container
+21:01:14.029  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.dialog-container>h1
+21:01:14.175  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.dialog-container>h1
+21:01:14.237  INFO  TestBase - In assert checked message 'Registered' in dialog  
+21:01:14.244  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:01:14.292  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+21:01:14.293  INFO  manager.ListenerWD - List size is -->1
+21:01:14.293  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Ok']
+21:01:14.333  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Ok']
+21:01:14.390  INFO  manager.HelperBase - Click OK button was needed
+21:01:14.399  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:01:14.437  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:01:14.437  INFO  manager.ListenerWD - List size is -->1
+21:01:14.438  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Logout ']
+21:01:14.566  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Logout ']
+21:01:14.741  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:01:14.781  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()=' Sign up ']
+21:01:14.911  INFO  manager.ListenerWD - Before Find Element By -->By.id: name
+21:01:14.939  INFO  manager.ListenerWD - After Find Element By -->By.id: name
+21:01:15.146  INFO  manager.ListenerWD - Before Find Element By -->By.id: lastName
+21:01:15.180  INFO  manager.ListenerWD - After Find Element By -->By.id: lastName
+21:01:15.555  INFO  manager.ListenerWD - Before Find Element By -->By.id: email
+21:01:15.604  INFO  manager.ListenerWD - After Find Element By -->By.id: email
+21:01:15.934  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+21:01:15.967  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+21:01:16.280  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:01:16.340  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: label[for='terms-of-use']
+21:01:16.595  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:01:16.632  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:01:20.685  INFO  manager.ListenerWD - We have a 'problem'
+21:01:20.686  INFO  manager.ListenerWD - The name of error method  isDisplayed
+21:01:20.702  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4390a304276dc7eecfa45a8319392, isElementDisplayed {id=a666e266-b8be-412b-abfd-8d22b132eaae}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60380/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+Session ID: 46d4390a304276dc7eecfa45a8319392
+21:01:20.705  INFO  manager.ListenerWD - *********************
+21:01:20.705  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+21:01:20.712  INFO  manager.ListenerWD - Screen with error is  1985 ****src/test/screenshots/screen1985.png
+21:01:21.262  INFO  manager.ListenerWD - We have a 'problem'
+21:01:21.262  INFO  manager.ListenerWD - The name of error method  isDisplayed
+21:01:21.262  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4390a304276dc7eecfa45a8319392, isElementDisplayed {id=a666e266-b8be-412b-abfd-8d22b132eaae}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60380/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+Session ID: 46d4390a304276dc7eecfa45a8319392
+21:01:21.263  INFO  manager.ListenerWD - *********************
+21:01:21.264  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+21:01:21.264  INFO  manager.ListenerWD - Screen with error is  1606 ****src/test/screenshots/screen1606.png
+21:01:21.809  INFO  manager.ListenerWD - We have a 'problem'
+21:01:21.810  INFO  manager.ListenerWD - The name of error method  isDisplayed
+21:01:21.811  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4390a304276dc7eecfa45a8319392, isElementDisplayed {id=a666e266-b8be-412b-abfd-8d22b132eaae}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60380/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+Session ID: 46d4390a304276dc7eecfa45a8319392
+21:01:21.812  INFO  manager.ListenerWD - *********************
+21:01:21.813  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)] -> css selector: button[type='submit']]
+21:01:21.813  INFO  manager.ListenerWD - Screen with error is  1110 ****src/test/screenshots/screen1110.png
+21:01:21.822  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+21:01:21.829  INFO  manager.ListenerWD - We have a 'problem'
+21:01:21.830  INFO  manager.ListenerWD - The name of error method  findElements
+21:01:21.830  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4390a304276dc7eecfa45a8319392, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60380/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d4390a304276dc7eecfa45a8319392
+21:01:21.831  INFO  manager.ListenerWD - *********************
+21:01:21.831  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)
+21:01:21.831  INFO  manager.ListenerWD - Screen with error is  1023 ****src/test/screenshots/screen1023.png
+21:01:21.884  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+21:01:21.920  INFO  manager.ListenerWD - We have a 'problem'
+21:01:21.923  INFO  manager.ListenerWD - The name of error method  findElements
+21:01:21.923  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-PPG6IOE', ip: '172.16.10.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4390a304276dc7eecfa45a8319392, findElements {using=xpath, value=//a[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\E129~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60380/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d4390a304276dc7eecfa45a8319392
+21:01:21.924  INFO  manager.ListenerWD - *********************
+21:01:21.924  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (46d4390a304276dc7eecfa45a8319392)
+21:01:21.924  INFO  manager.ListenerWD - Screen with error is  1388 ****src/test/screenshots/screen1388.png

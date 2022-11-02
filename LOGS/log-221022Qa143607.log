@@ -1,0 +1,13 @@
+14:36:12.131  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+14:36:13.504  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+14:36:13.593  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+14:36:13.631  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+14:36:13.821  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+14:36:14.240  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+14:36:14.317  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+14:36:14.361  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+14:36:14.523  INFO  manager.HelperBase - year --> 2022
+14:36:14.524  INFO  manager.HelperBase - Day of Month --> 22
+14:36:14.524  INFO  manager.HelperBase - Month value --> 10
+14:36:14.529  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+14:36:14.593  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
