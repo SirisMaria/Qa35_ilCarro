@@ -1,5 +1,6 @@
 package models;
 
+
 import lombok.*;
 
 @Setter
@@ -20,12 +21,10 @@ public class Car {
     private String doors;
     private String seats;
     private String clasS;
-    private String fuelConsumption;
-    private String carRegNum;
+    private String fuelConsumption ;
+    private String serialNumber ;
     private String price;
-    private String distanceInclued;
+    private String distanceInclued ;
     private String featurs;
     private String about;
-
-
 }

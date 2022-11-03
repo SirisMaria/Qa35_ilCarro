@@ -9,13 +9,13 @@ import java.util.Iterator;
 import java.util.List;
 
 public class DataProviderCar {
-
-
     @DataProvider
     public Iterator<Object[]> carValidData() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader("src/test/resources/car.csv"));
-        String line = reader.readLine();
+
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/car.csv")));
+
+        String line  =reader.readLine();
         while (line!=null){
             String[] split = line.split(";");
             list.add(new Object[]{
@@ -32,21 +32,17 @@ public class DataProviderCar {
                             .seats(split[9])
                             .clasS(split[10])
                             .fuelConsumption(split[11])
-                            .carRegNum(split[12])
+                            .serialNumber(split[12])
                             .price(split[13])
                             .distanceInclued(split[14])
                             .featurs(split[15])
                             .about(split[16])
                             .build()
-
             });
-            line = reader.readLine();
+            line= reader.readLine();
 
         }
-
-
 
         return list.iterator();
     }
 }
-

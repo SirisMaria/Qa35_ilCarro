@@ -9,28 +9,24 @@ import org.testng.annotations.BeforeSuite;
 import java.lang.reflect.Method;
 
 public class TestBase {
-
     Logger logger= LoggerFactory.getLogger(TestBase.class);
+
     static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
 
-    @BeforeMethod(alwaysRun = true)
-
-    public void getTestName(Method m){
-        logger.info("START TEST WITH NAME : " +m.getName());
-
+    @BeforeMethod  (alwaysRun = true)
+    public void loggerGetMethodName(Method m){
+        logger.info("Start Method with name --->" +m.getName());
     }
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeSuite  (alwaysRun = true)
     public void setUp() {
         app.init();
     }
 
 
-    @AfterSuite(alwaysRun = true)
+    @AfterSuite  (alwaysRun = true)
     public void tearDown() {
 
         app.stop();
     }
-
-
 }

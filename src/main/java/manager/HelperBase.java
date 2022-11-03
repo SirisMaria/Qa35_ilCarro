@@ -28,10 +28,14 @@ public class HelperBase {
     public void type(By locator, String text) {
         if (text != null) {
             WebElement element = wd.findElement(locator);
-            element.click();
+            new WebDriverWait(wd, Duration.ofSeconds(5))
+                    .until(ExpectedConditions.elementToBeClickable(element)).click();
+            logger.info("Wqqqqqqqqqqqqqqqqqqqqqqqqq {}, {}", element.getText(), text);
+            //click(locator);
+            //element.click();
+            logger.info("after click");
             element.clear();
             element.sendKeys(text);
-
 
         }
     }

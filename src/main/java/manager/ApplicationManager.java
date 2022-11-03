@@ -13,8 +13,8 @@ import org.slf4j.LoggerFactory;
 import java.time.Duration;
 
 public class ApplicationManager {
-
     Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
+
 
     WebDriver wd;
     HelperUser helperUser;
@@ -27,34 +27,32 @@ public class ApplicationManager {
     }
 
     public void init(){
-
-        if(browser.equals(Browser.CHROME.browserName())){
+        if(browser.equals(Browser.CHROME.browserName())){ // firefox!=chrome
             wd = new ChromeDriver();
             logger.info("All tests start in  ChromeDriver");
-        }else if(browser.equals(Browser.FIREFOX.browserName())){
-            wd = new FirefoxDriver();
+        }else if (browser.equals(Browser.FIREFOX.browserName())){
+            //System.setProperty("webdriver.gecko.driver","/Users/tayahatum/Qa35/Qa35_IlCarro/geckodriver");//firefox =firefox
+            wd= new FirefoxDriver();
             logger.info("All tests start in  Firefox");
-        } else if (browser.equals(Browser.EDGE.browserName())) {
-            wd = new EdgeDriver();
-            logger.info("All tests start in  Edge");
-
-
+        }else if (browser.equals(Browser.EDGE.browserName())){
+            wd= new EdgeDriver();
+            logger.info("All tests start in  EdgeDriver");
         }
 
+
         WebDriverListener listener = new ListenerWD();
-        wd = new ChromeDriver();
         wd=new EventFiringDecorator<>(listener).decorate(wd);
 
 
-        wd.manage().window().maximize();//open full screen
+        wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://ilcarro-1578153671498.web.app");
         logger.info("The current url is --->" +wd.getCurrentUrl());
         helperUser = new HelperUser(wd);
-        helperCar = new HelperCar(wd);
-        helperSearch = new HelperSearch(wd);
-
+        helperCar= new HelperCar(wd);
+        helperSearch=new HelperSearch(wd);
     }
+
 
     public void stop(){
         wd.quit();
@@ -64,7 +62,7 @@ public class ApplicationManager {
         return helperSearch;
     }
 
-    public HelperUser getHelperUser(){
+    public HelperUser getHelperUser() {
         return helperUser;
     }
 

@@ -20,7 +20,7 @@ public class AddNewCarTest extends TestBase {
         }
     }
 
-    @Test(groups = {"smoke","sanity"})
+    @Test(groups = {"smoke"})
     public void addCarSuccess(){
 
         Random random = new Random();
@@ -40,8 +40,8 @@ public class AddNewCarTest extends TestBase {
                 .doors("4")
                 .seats("7")
                 .clasS("C")
-                .fuelConsumption("6.6")
-                .carRegNum("12-5-"+i)
+                .fuelConsumption("66")
+                .serialNumber("12-9782"+i)
                 .price("60")
                 .distanceInclued("900")
                 .featurs("Type of featurs")
@@ -62,7 +62,7 @@ public class AddNewCarTest extends TestBase {
     public void addCarSuccessDP(Car car) {
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
-        car.setCarRegNum("112-53" +i);
+        car.setSerialNumber("112-53" +i);
 
         logger.info("Test start with data --->" + car.toString());
         app.helperCar().openCarForm();
