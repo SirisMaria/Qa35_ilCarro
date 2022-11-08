@@ -60,4 +60,5 @@ task groups(type :Test){
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
     }
+
 }
