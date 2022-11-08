@@ -2,7 +2,6 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.events.EventFiringDecorator;
@@ -33,9 +32,6 @@ public class ApplicationManager {
         }else if (browser.equals(Browser.FIREFOX.browserName())){
             wd= new FirefoxDriver();
             logger.info("All tests start in  Firefox");
-        }else if (browser.equals(Browser.EDGE.browserName())){
-            wd= new EdgeDriver();
-            logger.info("All tests start in  EdgeDriver");
         }
 
 
